@@ -37,8 +37,7 @@ import sys
 import cv2
 import numpy as np
 import pkg_resources
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 from fer.exceptions import InvalidImage
